@@ -1,0 +1,588 @@
+#wrapper
+{
+	width: 980px;
+	margin: 70px auto;
+}
+
+header
+{
+	background-color: #416dff;
+	width: 100%;
+	padding: 5px;
+	padding-top:3px;
+	box-shadow: 0px 1px 3px #2a2a2a;
+	position:fixed;
+	top:0;
+	z-index: 100;
+}
+
+body
+{
+	overflow-x: hidden;
+	font-family: segoe ui light;
+	margin:0;
+	padding:0;
+	background-color:#fdfdfd;
+}
+
+.headerEllements
+{
+	float:left;
+}
+
+.clear
+{
+	clear: both;
+}
+
+#title
+{
+	font-size: 30px;
+	margin-left:0px;
+	color: white;
+	cursor:pointer;
+	transition:color .2s ease-out,color .2s ease-in;
+}
+
+#title:hover
+{
+	color: #ffc119;
+}
+
+#searchBox
+{
+	margin-top: 8px;
+	margin-left: 100px;
+	background-color: white;
+	height:27px;
+}
+
+#searchField
+{
+	padding-left:5px;
+	padding-right:10px;
+	padding-bottom:5px;
+	padding-top:5px;
+	font-size: 15px;
+	border: none;
+	float: left;
+	color: #416dff;
+}
+
+#searchField::-webkit-input-placeholder
+{
+	color: #7a97fa;
+}
+
+#searchField::-moz-placeholder
+{
+	color: #7a97fa;
+}
+
+#searchField:-moz-placeholder
+{
+	color: #7a97fa;
+}
+
+#searchField:-ms-input-placeholder
+{
+	color: #7a97fa;
+}
+
+#userField
+{
+	float: right;
+	margin-right: 20px;
+	font-size: 18px;
+	margin-top: 7px;
+	color: white;
+	cursor: pointer;
+	transition:color .2s ease-out,color .2s ease-in;
+}
+
+#userField:hover
+{
+	color: #ffc119;
+}
+
+#goIcon
+{
+	width:22px;
+}
+
+#searchIcon
+{
+	width:22px;
+	float:left;
+	margin-top:3px;
+	margin-left:2px;
+}
+
+#searchGoButton
+{
+	float: left;
+	margin-top:3px;
+	cursor:pointer;
+	transition:color .2s ease-out,color .2s ease-in;
+}
+
+#menuButton
+{
+	float:right;
+	margin-right:0;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+#menuIcon
+{
+	width:22px;
+}
+
+.card
+{
+	width:940px;
+	margin-left:20px;
+	margin-top:15px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 7px #2a2a2a;
+	padding:0;
+	position:relative;
+	background-color:white;
+}
+
+.listCard
+{
+	width:900px;
+	margin-left:20px;
+	margin-top:15px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 7px #2a2a2a;
+	padding:0;
+	position:relative;
+	background-color:white;
+}
+
+#ofthemonthImg, #listImg
+{
+	width:200px;
+}
+
+#ofthemonthPicture, #listPicture
+{
+	float:left;
+	height:200px;
+	border-right:1px solid #4d4d4d;
+}
+
+#ofTheMonthText
+{
+	float:left;
+	width:730px;
+}
+
+#listText
+{
+	float:left;
+	width:689px;
+}
+
+#ofthemonthTitle, #listTitle
+{
+	background-color: #416dff;
+	width: 100%;
+	padding: 5px;
+	padding-top:3px;
+	border-bottom:1px solid #4d4d4d;
+	font-size: 23px;
+	color: white;
+	cursor:pointer;
+	transition:color .2s ease-out,color .2s ease-in;
+}
+
+#ofthemonthTitle:hover, #listTitle:hover
+{
+	color: #4d4d4d;
+}
+
+#ofthemonthDescription, #listDescription
+{
+	word-wrap:wrap;
+	margin-left:10px;
+	font-size:19px;
+	margin-top:5px;
+}
+
+#logoIcon
+{
+	width:40px;
+	float:left;
+	margin-left:50px;
+}
+
+#ofthemonthDownloadButton, #listDownloadButton
+{
+	position:absolute;
+	bottom:0;
+	right:0px;
+	padding:5px;
+	padding-right:11px;
+	font-size:18px;
+	background-color:#ffba00;
+	color:white;
+	transition:background-color .2s ease-out,background-color .2s ease-in;
+	transition:color .2s ease-out,color .2s ease-in;
+	cursor:pointer;
+	width:723px;
+	border-top:1px solid #4d4d4d;
+}
+
+#listDownloadButton
+{
+	width:683px;
+}
+
+#ofthemonthDownloadButton:hover, #listDownloadButton:hover
+{
+	background-color:#ffdb78;
+	color:#4d4d4d;
+}
+
+#downloadIcon
+{
+	width:22px;
+	margin-bottom:-8px;
+	float:right;
+}
+
+#downloadText
+{
+	float:right;
+}
+
+#ofTheMonthDownloads, #listDownloads
+{
+	margin-left:5px;
+}
+
+#ofTheMonthRating, #listRating
+{
+	margin-left:20px;
+}
+
+#featuredTitleBar
+{
+	background-color: #416dff;
+	width: 100%;
+	border-bottom:1px solid #4d4d4d;
+	font-size: 23px;
+	color: white;
+}
+
+#seeAllFeaturedButton
+{
+	float:right;
+	font-size:18px;
+	margin-top:3px;
+	margin-right:20px;
+	cursor:pointer;
+	padding-right:5px;
+	transition:color .2s ease-out,color .2s ease-in;
+}
+
+#seeAllFeaturedButton:hover
+{
+	color:#ffc119;
+}
+
+#featuredTitle
+{
+	float:left;
+	margin-left:10px;
+	cursor:default;
+}
+
+#seeAllIcon
+{
+	width:22px;
+	margin-bottom:-5px;
+}
+
+.featuredApp
+{
+	float:left;
+	margin-left:20px;
+	border: 1px solid #4d4d4d;
+	height:208px;
+	position:relative;
+	cursor:pointer;
+	box-shadow: 1px 1px 1px #2a2a2a;
+	transition:border-color .2s ease-out,border-color .2s ease-in;
+	transition:box-shadow .2s ease-out,box-shadow .2s ease-in;
+}
+
+.featuredApp:hover
+{
+	border-color:#ffc119;
+	box-shadow: 1px 1px 7px #2a2a2a;
+}
+
+.featuredAppTumb
+{
+	width:208px;
+}
+
+#firstFour
+{
+	margin-top:10px;
+	padding-right:20px;
+	padding-bottom:10px;
+}
+
+.featuredAppName
+{
+	position:absolute;
+	bottom:0;
+	background-color:rgba(255, 193, 25, 0.8);
+	width:100%;
+	font-size:18px;
+	text-align:right;
+}
+
+.tabButtons
+{
+	float:left;
+	margin-left:20px;
+	height:100%;
+	padding-left:5px;
+	padding-right:5px;
+	cursor:pointer;
+	transition:background-color .2s ease-out,background-color .2s ease-in;
+	transition:border .2s ease-out,border .2s ease-in;
+	border-left:1px solid #416dff;
+	border-right:1px solid #416dff;
+}
+
+#rated
+{
+	margin-left:5px;
+	color:#ffc119;
+}
+
+.tabButtons:hover
+{
+	background-color:#96aefc;
+	border-left:1px solid #4d4d4d;
+	border-right:1px solid #4d4d4d;
+}
+
+#tabsHeader
+{
+	background-color: #416dff;
+	width: 100%;
+	border-bottom:1px solid #4d4d4d;
+	font-size: 23px;
+	color: white;
+}
+
+#tabs
+{
+	padding-bottom:10px;
+}
+
+#menu
+{
+	display: none;
+	position:fixed;
+	top:0;
+	right:-400px;
+	z-index:200;
+	height:100%;
+	width:400px;
+	background-color:white;
+	box-shadow: -2px 0px 5px #2a2a2a;
+}
+
+#menuHeader
+{
+	background-color:#f9f9f9;
+	box-shadow: 0px 1px 3px #2a2a2a;
+	width:100%;
+	height:100px;
+	cursor:pointer;
+}
+
+#userPhoto
+{
+	float:left;
+	width:100px;
+	height:100px;
+	border-right:1px solid #4d4d4d;
+}
+
+#menuHeaderUserData
+{
+	float:left;
+	font-size:20px;
+	margin-left:10px;
+}
+
+#menuHeaderHideMenuButton
+{
+	float:right;
+	border-left:1px solid black;
+	height:100%;
+}
+
+#menuHeaderUserName, #menuHeaderUserLevel, #menuHeaderUserNotifications
+{
+	margin-top:4px;
+}
+
+.menuNavigationItem
+{
+	font-size:18px;
+	padding-top:10px;
+	padding-bottom:10px;
+	cursor:pointer;
+	padding-left:20px;
+	transition:box-shadow .3s ease-out,box-shadow .3s ease-in;
+	transition:background-color .3s ease-out,background-color .3s ease-in;
+}
+
+#menuNavigation
+{
+	margin-top:20px;
+}
+
+#menuCloseButtonBottom
+{
+	position:absolute;
+	bottom:10px;
+	left:0px;
+	padding-left:20px;
+	padding-top:6px;
+	font-size:18px;
+	width:100%;
+	border-top:1px solid #4d4d4d;
+	cursor:pointer;
+	transition:background-color .3s ease-out,background-color .3s ease-in;
+}
+
+#menuCloseButtonBottom:hover
+{
+	background-color:#f9f9f9;
+}
+
+.navIcon, #menuCloseButtonBottomIcon
+{
+	width:20px;
+	display:block;
+	float:left;
+}
+
+.navTitleButton, .closeTitleButton
+{
+	margin-top:-3px;
+	float:left;
+	margin-left:10px;
+}
+
+#menuHeaderUserPicture
+{
+	width:100px;
+}
+
+#closeUpperIcon
+{
+	width:50px;
+	margin-top:25px;
+}
+
+.menuNavigationItem:hover
+{
+	background-color:#f9f9f9;
+	box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

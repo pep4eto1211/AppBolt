@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AppBolt</title>
+		<script type = "text/javascript" src = "jq.js"></script>
+		<script type = "text/javascript" src = "script.js"></script>
+		<link rel  = "stylesheet" type = "text/css" href = "style.css"/>
+		<link rel = "shortcut icon" type = "image/png" href = "Images/logo.png"/>
+	</head>
+	<body>
+		<nav id = "menu">
+			<div id = "menuHeader">
+				<div id = "userPhoto">
+					<img src = "Images/user.png" id = "menuHeaderUserPicture"/>
+				</div>
+				<div id = "menuHeaderUserData">
+					<div id = "menuHeaderUserName">
+						Username
+					</div>
+					<div id = "menuHeaderUserLevel">
+						Level
+					</div>
+					<div id = "menuHeaderUserNotifications">
+						Notifications
+					</div>
+				</div>
+				<div id = "menuHeaderHideMenuButton" title = "Hide menu">
+					<img src = "Images/closeup.png" id = "closeUpperIcon"/> 
+				</div>
+				<div class = "clear">
+				</div>
+			</div>
+			<div id = "menuNavigation">
+				<div id = "navDashboard" class = "menuNavigationItem">
+					<img src = "Images/dashboard.png" class = "navIcon"/> 
+					<div class = "navTitleButton">Dashboard</div>
+					<div class = "clear">
+					</div>
+				</div>
+				<div id = "navDevDashboard" class = "menuNavigationItem">
+					<img src = "Images/devdashboard.png" class = "navIcon"/>
+					<div class = "navTitleButton">Developer dashboard</div>
+					<div class = "clear">
+					</div>
+				</div>
+				<div id = "navFavourites" class = "menuNavigationItem">
+					<img src = "Images/favourites.png" class = "navIcon"/> 
+					<div class = "navTitleButton">Favourites</div>
+					<div class = "clear">
+					</div>
+				</div>
+				<div id = "navAchievements" class = "menuNavigationItem">
+					<img src = "Images/achievements.png" class = "navIcon"/>
+					<div class = "navTitleButton">Achievements</div>
+					<div class = "clear">
+					</div>
+				</div>
+				<div id = "navCategories" class = "menuNavigationItem">
+					<img src = "Images/categories.png" class = "navIcon"/> 
+					<div class = "navTitleButton">Categories</div>
+					<div class = "clear">
+					</div>
+				</div>
+				<div id = "navDetailedSearch" class = "menuNavigationItem">
+					<img src = "Images/detSearch.png" class = "navIcon"/>
+					<div class = "navTitleButton">Detailed search</div>
+					<div class = "clear">
+					</div>
+				</div>
+				<div id = "navSettings" class = "menuNavigationItem">
+					<img src = "Images/settings.png" class = "navIcon"/>
+					<div class = "navTitleButton">Settings</div>
+					<div class = "clear">
+					</div>
+				</div>
+				<div id = "navLogOut" class = "menuNavigationItem">
+					<img src = "Images/logout.png" class = "navIcon"/>
+					<div class = "navTitleButton">Log out</div>
+					<div class = "clear">
+					</div>
+				</div>
+			</div>
+			<div id = "menuCloseButtonBottom">
+				<img src = "Images/close.png" id = "menuCloseButtonBottomIcon"/>
+				<div class = "closeTitleButton">Hide menu</div>
+				<div class = "clear">
+					</div>
+			</div>
+		</nav>
+		<header>
+				<img src = "Images/logo.png" id = "logoIcon"/>
+				<div class = "headerEllements" id = "title">
+					AppBolt
+				</div>
+				<div class = "headerEllements" id = "searchBox">
+					<img src = "Images/searchIcon.png" id = "searchIcon"/>
+					<input type = "text" id = "searchField" placeholder = "Search"/>
+					<div id = "searchGoButton">
+						<img src = "Images/SearchButton.png" id = "goIcon"/>
+					</div>
+					<div class = "clear">
+					</div>
+				</div>
+				<div class = "headerEllements" id = "menuButton">
+					<img src = "Images/menuIcon.png" id = "menuIcon"/>
+				</div>
+				<div class = "headerEllements" id = "userField">
+					<!--<img src = "Images/userIcon.png" id = "goIcon"/>--->
+					<div id = "username">
+						Username
+					</div>
+				</div>
+				<div class = "clear">
+				</div>
+		</header>
+		<div id = "wrapper">
+			<main>
+				<div id = "ofTheMonth" class = "card">
+					<div id = "ofthemonthPicture">
+						<img src = "Images/ofthemonthImg.png" id = "ofthemonthImg"/>
+					</div>
+					<div id = "ofTheMonthText">
+						<div id = "ofthemonthTitle">
+							App of the month: Transistor
+						</div>
+						<div id = "ofthemonthDescription">
+						Transistor is a sci-fi themed action RPG that invites you to weild an extraordinary weapon of unknown origin as you fight through a stunning futuristic city.
+						</div>
+						<div id = "ofthemonthDownloadButton">
+							<span id = "ofTheMonthDownloads" class = "downloads">Downloads: 3201</span>
+							<span id = "ofTheMonthRating" class = "rating">Rating: 4.7/5</span>
+							<span id = "downloadText">Download</span> 
+							<img src = "Images/downloadIcon.png" id = "downloadIcon"/> 
+						</div>
+					</div>
+					<div class = "clear">
+					</div>
+				</div>
+				<div id = "featured" class = "card">
+					<div id = "featuredTitleBar">	
+						<div id = "featuredTitle">
+							Featured:
+						</div>
+						<div id = "seeAllFeaturedButton">
+							<img src = "Images/seeAllIcon.png" id = "seeAllIcon"/> See all
+						</div>
+						<div class = "clear">
+						</div>
+					</div>
+					<div id = "firstFour">
+						<div class = "featuredApp" id = "firstApp">
+							<img src = "Images/f1.png" class = "featuredAppTumb"/>
+							<div class = "featuredAppName">
+								Attack on Titan &nbsp
+							</div>
+						</div>
+						<div class = "featuredApp" id = "secondApp">
+							<img src = "Images/f2.png" class = "featuredAppTumb"/>
+							<div class = "featuredAppName">
+								Portal 3 &nbsp
+							</div>
+						</div>
+						<div class = "featuredApp" id = "thirdApp">
+							<img src = "Images/f3.png" class = "featuredAppTumb"/>
+							<div class = "featuredAppName">
+								Angelfall &nbsp
+							</div>
+						</div>
+						<div class = "featuredApp" id = "fourthApp">
+							<img src = "Images/f4.png" class = "featuredAppTumb"/>
+							<div class = "featuredAppName">
+								The Horizon &nbsp
+							</div>
+						</div>
+						<div class = "clear">
+						</div>
+					</div>
+					<div class = "clear">
+					</div>
+				</div>
+				<div id = "tabs" class = "card">
+					<div id = "tabsHeader">
+						<div class = "tabButtons" id = "rated">
+							Top rated
+						</div>
+						<div class = "tabButtons" id = "downloaded">
+							Most downloaded
+						</div>
+						<div class = "tabButtons" id = "newest">
+							Newest
+						</div>
+						<div class = "clear">
+						</div>
+					</div>
+					<div id = "firstPageList">
+						<div class = "listCard">
+							<div id = "listPicture">
+								<img src = "Images/example.png" id = "listImg"/>
+							</div>
+							<div id = "listText">
+								<div id = "listTitle">
+									Winged Guns
+								</div>
+								<div id = "listDescription">
+									Become the best gunslinger in a world where will you survive until tomorrow is decided by your skills with the guns.
+								</div>
+								<div id = "listDownloadButton">
+									<span id = "listDownloads" class = "downloads">Downloads: 311</span>
+									<span id = "listRating" class = "rating">Rating: 4.2/5</span>
+									<span id = "downloadText">Download</span> 
+									<img src = "Images/downloadIcon.png" id = "downloadIcon"/> 
+								</div>
+							</div>
+							<div class = "clear">
+							</div>
+						</div>
+						<div class = "listCard">
+							<div id = "listPicture">
+								<img src = "Images/example2.png" id = "listImg"/>
+							</div>
+							<div id = "listText">
+								<div id = "listTitle">
+									Limbo X Portal
+								</div>
+								<div id = "listDescription">
+									Solve puzzles in Limbo- the world between ours and the Hell. Find your way through countless traps and defeat the evil robot which controls this place GlAdos.
+								</div>
+								<div id = "listDownloadButton">
+									<span id = "listDownloads" class = "downloads">Downloads: 3121</span>
+									<span id = "listRating" class = "rating">Rating: 4.2/5</span>
+									<span id = "downloadText">Download</span> 
+									<img src = "Images/downloadIcon.png" id = "downloadIcon"/> 
+								</div>
+							</div>
+							<div class = "clear">
+							</div>
+						</div>
+						<div class = "listCard">
+							<div id = "listPicture">
+								<img src = "Images/example3.png" id = "listImg"/>
+							</div>
+							<div id = "listText">
+								<div id = "listTitle">
+									Two Swords
+								</div>
+								<div id = "listDescription">
+									Become part of an adventure beyond your imagination. Take one of the two ancient swords and fight your way to the one you really love.
+								</div>
+								<div id = "listDownloadButton">
+									<span id = "listDownloads" class = "downloads">Downloads: 921</span>
+									<span id = "listRating" class = "rating">Rating: 4.1/5</span>
+									<span id = "downloadText">Download</span> 
+									<img src = "Images/downloadIcon.png" id = "downloadIcon"/> 
+								</div>
+							</div>
+							<div class = "clear">
+							</div>
+						</div>
+					</div>
+					<div class = "clear">
+					</div>
+				</div>
+					<div class = "clear">
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
